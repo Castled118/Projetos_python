@@ -1,0 +1,6 @@
+s1=str(input('Escreva uma frase: '))
+s2=str(input('Qual letra você deseja analizar: ').upper().strip())
+s3=s1.upper()
+print(f'A letra {s2} aparece {s3.count(s2)}!')
+print(f'A primeira letra {s2} aparece na posição {s3.find(s2)+1}!')
+print(f'A última letra {s2} aparece na posição {s3.rfind(s2)+1}!')
