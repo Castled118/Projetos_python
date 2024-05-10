@@ -17,7 +17,7 @@ def checar_num(i, j):
 
 
 #Pergunta se ele quer modificar uma planilha excel e checa se a resposta é válida:
-layout1=[[pg.Text('Você deseja acresentar valores a uma planilha excel: [S/N] ')],[pg.Button('Sim'),pg.Button('Não')]]
+layout1=[[pg.Text('Você deseja acresentar valores a uma planilha excel: ')],[pg.Button('Sim'),pg.Button('Não')]]
 janela1=pg.Window('Opção excel',layout1)
 while True:
     #Checar os valores dos botões
